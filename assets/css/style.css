@@ -1,0 +1,14 @@
+body{ 
+    background: black;
+    background-image: url('https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWARL201811FSF5/raw/master/03-javascript/02-Homework/Instructions/Images/2-WordGuess.jpg');
+     background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.main-section{
+    float: right;
+    margin-top: 35%;
+    margin-left: 50%;
+    border-style: dashed
+    
+}
+
