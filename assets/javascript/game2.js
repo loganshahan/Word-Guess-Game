@@ -27,15 +27,15 @@ var setup = function(){
     guessedText.innerHTML = lettersGuessed.toString();
     
 };
+
+
+
+
+setup();
 document.onkeyup = function(event){
     lettersGuessed = event.key;
     if (lettersGuessed === current.indexOf()){
         display.push(lettersGuessed);
     }
 };
-
-
-
-setup();
-document.onkeyup();
 

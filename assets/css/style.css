@@ -22,4 +22,13 @@ h3{
     color: white;
     padding: 2%;
 }
+#current-word, #wins, #guesses-reaming, #guessed-letters{
+    font-size: 1.5em;
+    color: white;
+
+
+}
+    
+
+
 
