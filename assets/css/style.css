@@ -1,13 +1,14 @@
 body{ 
     background: black;
-    background-image: url('https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWARL201811FSF5/raw/master/03-javascript/02-Homework/Instructions/Images/2-WordGuess.jpg');
-     background-repeat: no-repeat;
-    background-size: 100%; 
+    /* background-image: url('https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWARL201811FSF5/raw/master/03-javascript/02-Homework/Instructions/Images/2-WordGuess.jpg'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Pro_Football_Hall_of_Fame_logo.svg/1200px-Pro_Football_Hall_of_Fame_logo.svg.png');
+    background-repeat: no-repeat;
+    background-size: 50%; 
 }
 .main-section{
     float: right;
-    margin-top: 30%;
-    margin-left: 50%;
+    margin-top: 10%;
+    margin-left: 55%;
     border-style: dashed;
     border-color: white;
     text-align: center;

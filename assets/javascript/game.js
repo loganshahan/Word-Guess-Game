@@ -1,4 +1,4 @@
-var wordBank = ["queen", "aerosmith", "madonna", "prince", "foreigner", "blondie"];
+var wordBank = ["marino", "montana", "elway", "favre", "young", "aikman", "unitas"];
 var randomWord = "";
 var lettersInRandom = [];
 var blanks = 0;
