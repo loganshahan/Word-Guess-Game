@@ -1,4 +1,4 @@
-var wordBank = ["queen", "aerosmith", "madona", "prince", "cher"];
+var wordBank = ["queen", "aerosmith", "madonna", "prince", "cher"];
 var randomWord = "";
 var lettersInRandom = [];
 var blanks = 0;
@@ -12,7 +12,7 @@ var guessesLeft = 10;
 
 function setUp(){
   guessesLeft = 10;
-  randomWord =      wordsBank[Math.floor(Math.random() *  wordsBank.length)];
+  randomWord =  wordBank[Math.floor(Math.random() *  wordBank.length)];
    lettersInRandom = randomWord.split("");
   blanks = lettersInRandom.length;
   console.log(randomWord);
@@ -23,7 +23,7 @@ function setUp(){
   }
   console.log(blanksAndLetters);
   document.getElementById("guesses-remaining").innerHTML = guessesLeft;
-  document.getElmentById("current-word").innerHTML = blanksAndLetters.join(" ");
+  document.getElementById("current-word").innerHTML = blanksAndLetters.join(" ");
   document.getElementById("guessed-letters").innerHTML = wrong.join(" ");
 
 };
