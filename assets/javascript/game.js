@@ -1,4 +1,4 @@
-var wordBank = ["queen", "aerosmith", "madonna", "prince", "cher"];
+var wordBank = ["queen", "aerosmith", "madonna", "prince", "foreigner", "blondie"];
 var randomWord = "";
 var lettersInRandom = [];
 var blanks = 0;
