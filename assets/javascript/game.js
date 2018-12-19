@@ -15,13 +15,13 @@ function setUp(){
   randomWord =  wordBank[Math.floor(Math.random() *  wordBank.length)];
    lettersInRandom = randomWord.split("");
   blanks = lettersInRandom.length;
-  console.log(randomWord);
+//   console.log(randomWord);
   blanksAndLetters = [];
   wrong = [];
   for(var i = 0; i < blanks; i++){
     blanksAndLetters.push("_");
   }
-  console.log(blanksAndLetters);
+//   console.log(blanksAndLetters);
   document.getElementById("guesses-remaining").innerHTML = guessesLeft;
   document.getElementById("current-word").innerHTML = blanksAndLetters.join(" ");
   document.getElementById("guessed-letters").innerHTML = wrong.join(" ");
@@ -41,7 +41,7 @@ function check(letter){
                 blanksAndLetters[r] = letter;
             }
         }
-        console.log(blanksAndLetters);
+        // console.log(blanksAndLetters);
     }
     else{
         wrong.push(letter);
@@ -50,7 +50,7 @@ function check(letter){
    
 };
 function done(){
-    console.log("wins: " + win + " | losses: " + losses + " | guesses: " + guessesLeft);
+    // console.log("wins: " + win + " | losses: " + losses + " | guesses: " + guessesLeft);
 
     document.getElementById("guesses-remaining").innerHTML = guessesLeft;
     document.getElementById("current-word").innerHTML = blanksAndLetters.join(" ");
