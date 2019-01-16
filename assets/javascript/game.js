@@ -18,6 +18,7 @@ function setUp(){
 //   console.log(randomWord);
   blanksAndLetters = [];
   wrong = [];
+  final_join = '';
   for(var i = 0; i < blanks; i++){
     blanksAndLetters.push("_");
   }
@@ -43,8 +44,12 @@ function check(letter){
         }
         // console.log(blanksAndLetters);
     }
-    else{
+    else if(!wrong.includes(letter)){
         wrong.push(letter);
+        var finalWord = [...new Set(wrong)];
+        final_join = finalWord.join("");
+        console.log(final_join);
+
         guessesLeft --;
     }
    
@@ -61,8 +66,9 @@ function done(){
         document.getElementById("wins").innerHTML = win;
         setUp();
     }
-    else if(guessesLeft ===0){
+    else if(guessesLeft === 0){
         losses++;
+        document.getElementById("lost").innerHTML = losses;
         setUp();
 
     }
